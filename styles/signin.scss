@@ -1,0 +1,154 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main {
+  background-color: $signinbg;
+  height: 100vh;
+  &_inner {
+    nav {
+      background-color: $nav;
+
+      .logo {
+        img {
+          max-width: 10em;
+          height: 3em;
+          margin-left: 20rem;
+        }
+      }
+    }
+
+    section {
+      width: 40rem;
+      height: 30rem;
+      margin: 5rem 25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $innerbg;
+      border-radius: 0.5rem;
+      .signin_sec {
+        &_inner {
+          .signin_inner {
+            display: flex;
+
+            .white_box {
+              background-color: $white;
+              height: 27rem;
+              width: 20rem;
+              border-radius: 0.5rem;
+              padding: 2rem;
+              text-align: center;
+
+              &_inner {
+                .header {
+                  h2 {
+                    margin-bottom: 1.5rem;
+                    font-size: 14px;
+                    font-weight: 200;
+                    letter-spacing: 1px;
+                    word-spacing: 5px;
+                    color: $light_text;
+                  }
+
+                  p {
+                    font-size: 11px;
+                    font-weight: 100;
+                    color: $black;
+                    word-spacing: 4px;
+                    letter-spacing: 2px;
+                  }
+                }
+
+                .form_sec {
+                  padding: 2rem;
+                  p {
+                    font-size: 14px;
+                    font-weight: 200;
+                    color: $light_text;
+                    margin-bottom: 0.5rem;
+                  }
+
+                  form {
+                    input {
+                      width: 18rem;
+                      height: 2rem;
+                      padding: 0.5rem;
+                      inset: 0 -3rem;
+                      outline: none;
+                      margin-bottom: 1rem;
+                      border: 0.5px solid $border;
+
+                      &::placeholder {
+                        color: $light_text;
+                      }
+                    }
+                  }
+                }
+                .checkbox {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: -2rem;
+                  font-size: 13px;
+                  color: $light_text;
+                  input {
+                    margin-right: 0.5rem;
+                  }
+                }
+
+                button {
+                  background-image: linear-gradient(
+                    to right,
+                    $gr5 0%,
+                    $gr6 100%
+                  );
+                  border: none;
+                  border-radius: 5px;
+                  margin: 1.5rem;
+                  width: 8rem;
+                  height: 2rem;
+                  text-transform: uppercase;
+                  color: $white;
+                  font-size: 12px;
+                  font-weight: 600;
+                  box-shadow: 0 10px 30px rgb(0 0 0 /15%);
+                  cursor: pointer;
+                }
+
+                .bottom_sec {
+                  p {
+                    font-size: 13px;
+                    font-weight: 100;
+                    color: $light_text;
+
+                    a {
+                      color: $explore;
+                      text-decoration: none;
+
+                      &:hover {
+                        color: $span;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .img_sec {
+            img {
+              width: 15rem;
+              margin: 6rem 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main {
+  background-color: #11279d;
+  height: 100vh;
+}
+.main_inner nav {
+  background-color: #0d42b2;
+}
+.main_inner nav .logo img {
+  max-width: 10em;
+  height: 3em;
+  margin-left: 20rem;
+}
+.main_inner section {
+  width: 40rem;
+  height: 30rem;
+  margin: 5rem 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1808b4;
+  border-radius: 0.5rem;
+}
+.main_inner section .signin_sec_inner .signin_inner {
+  display: flex;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box {
+  background-color: #fff;
+  height: 27rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .header h2 {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .header p {
+  font-size: 11px;
+  font-weight: 100;
+  color: #000;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec {
+  padding: 2rem;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+  margin-bottom: 0.5rem;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec form input {
+  width: 18rem;
+  height: 2rem;
+  padding: 0.5rem;
+  inset: 0 -3rem;
+  outline: none;
+  margin-bottom: 1rem;
+  border: 0.5px solid #dae4ff;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec form input::-moz-placeholder {
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec form input:-ms-input-placeholder {
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .form_sec form input::placeholder {
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+  font-size: 13px;
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .checkbox input {
+  margin-right: 0.5rem;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner button {
+  background-image: linear-gradient(to right, #16a3fe 0%, #41faa4 100%);
+  border: none;
+  border-radius: 5px;
+  margin: 1.5rem;
+  width: 8rem;
+  height: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .bottom_sec p {
+  font-size: 13px;
+  font-weight: 100;
+  color: #b7b7b7;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .bottom_sec p a {
+  color: #2962ff;
+  text-decoration: none;
+}
+.main_inner section .signin_sec_inner .signin_inner .white_box_inner .bottom_sec p a:hover {
+  color: red;
+}
+.main_inner section .signin_sec_inner .img_sec img {
+  width: 15rem;
+  margin: 6rem 2rem;
+}/*# sourceMappingURL=signin.css.map */
